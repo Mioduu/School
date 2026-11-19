@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodawanie Elementów</title>
+</head>
+<body>
+    <h1>Tworzenie nowego elementu HTML</h1>
+    <div id="div2">Div 2</div>
+
+    <script>
+        let container = document.createElement("div");
+        let p = document.createElement("p");
+        container.appendChild(p);
+        let span = document.createElement("span");
+        p.before(span);
+        console.log(container.outerHTML);
+
+        const element = document.getElementById("div2");
+        element.remove();
+    </script>
+</body>
+</html>
