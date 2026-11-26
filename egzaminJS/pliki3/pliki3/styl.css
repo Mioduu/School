@@ -1,0 +1,64 @@
+* {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background-color: beige;
+    font-size: 140%;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+section, article {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+button {
+    background-color: tan;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 150%;
+}
+
+.obraz {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid tan;
+}
+
+.miniatury {
+    width: 15%;
+}
+
+.okno {
+    background-color: RGBA(0,0,0,0.7);
+    width: 80%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    display: none;
+    
+}
+
+.obrazOkno {
+    margin: auto;
+    display: block;
+}
+
+.zamknij {
+    top: 15px;
+    right: 35px;
+    color: beige;
+    font-style: bold;
+    font-size: 40px;
+}
+
+.zamknij:hover {
+    cursor: pointer;
+}
